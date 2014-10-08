@@ -1,27 +1,336 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x4508b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x3f2ce0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4508b0" />
-  <item nodeId="node-0x4508b0">
+  <activeNode nodeId="node-0x3f2ce0" />
+  <item nodeId="node-0x3f2ce0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 Zelda
 An Interactive Fiction by Roboninja101
-Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141007 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
+Middle Hallway
+middle hallay, exits are to the west and south
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">NO</temporary>
+    <children>
+      <child nodeId="node-0x70863a0" />
+      <child nodeId="node-0x7085f40" />
+      <child nodeId="node-0x7084e00" />
+      <child nodeId="node-0x3f2d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2d50">
+    <command xml:space="preserve">e]</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="194">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f2da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2da0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="194">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f2df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2df0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="194">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f2e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2e40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="194">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f2e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2e90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="194">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f2ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2ee0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+King&apos;s Room
+The King&apos;s Room is even more magnificiant than Zelda&apos;s Room. Theres a desk, a wardrobe, a bed, and other pieces of furniture
+
+On King&apos;s bed is an Ocarina of Time.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="193">YES</temporary>
+  </item>
+  <item nodeId="node-0x7084e00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x7084e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x7084e50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Zelda&apos;s Room
+you enter an elegant room with the most beautiful furnishings and furniture you&apos;ve ever seen. a dresser and shelf are on your left, a Painting and a Hylian Crest Quilt are on your right, and a bed is in front of you. You also notice Zelda staring out the window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085df0" />
+      <child nodeId="node-0x7084ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7084ea0">
+    <command xml:space="preserve">open shelf</command>
+    <result xml:space="preserve">You open the Shelf, revealing Storybooks, History Books, Trinkets and a Hyrule Heritage Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x7084ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7084ef0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Storybooks: Why would you take it? You have no use for it.
+History Books: Why would you take it? You have no use for it.
+Trinkets: You examine the trinkets, think about which one to take, but then you notice that the stand for an ocarina is missingHyrule Heritage Book: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7084f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x7084f60">
+    <command xml:space="preserve">x heritage book</command>
+    <result xml:space="preserve">This book has every record of the history of Hyrule spanning from the Era of Creation, The God Era, the Twilight and Shadow Era, and the Era of Great Voyage.
+
+You notice a bookmark fall out of the Hero of Time Era chapter. Upon Further investigation, you notice pages upon pages of notes on the Ocarina of Time, incuding a song written in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085090" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085090">
+    <command xml:space="preserve">talk to zelda</command>
+    <result xml:space="preserve">Ugh, what was it?! It seems so familiar, but i just can&apos;t remember that song! Hmm? Oh. Hi Link. Sorry, I&apos;ve been trying to remember a song for a whle now, and it&apos;s really bugging me. Maybe could you figure help me remember what it was?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f2f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2f70">
+    <command xml:space="preserve">talk to zelda</command>
+    <result xml:space="preserve">Hmm, what was that song? Do you know it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085100" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085100">
+    <command xml:space="preserve">talk to zelda</command>
+    <result xml:space="preserve">Hmm, what was that song? Do you know it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085170" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085170">
+    <command xml:space="preserve">give heritage boo to zleda</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x70851e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70851e0">
+    <command xml:space="preserve">give book to zelda</command>
+    <result xml:space="preserve">Oh, Maybe it&apos;s in here... Nope, Nope, Nope, Nope, YES!! That&apos;s it! But wait, now where&apos;s my Ocarina? Wow I am careless today.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085250" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x70852c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70852c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
 MIddle Hallway
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="3">NO</temporary>
+    <temporary score="176">YES</temporary>
     <children>
-      <child nodeId="node-0x2faea0" />
+      <child nodeId="node-0x7085330" />
     </children>
   </item>
-  <item nodeId="node-0x2faea0">
+  <item nodeId="node-0x7085330">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7084fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7084fd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+King&apos;s Room
+The King&apos;s Room is even more magnificiant than Zelda&apos;s Room. Theres a desk, a wardrobe, a bed, and other pieces of furniture
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085020" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085020">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">You open Desk, revealing a Wedding Ring.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085520" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085520">
+    <command xml:space="preserve">take ring</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085590" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085590">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085600" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085600">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+MIddle Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085670" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085670">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 East Corridor
@@ -29,6 +338,998 @@ East Corridor
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x70856e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70856e0">
+    <command xml:space="preserve">ee</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085750" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085750">
+    <command xml:space="preserve">ee</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x70857c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70857c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Link&apos;s Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085830" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085830">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x70858a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70858a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085910" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085910">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085980" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085980">
+    <command xml:space="preserve">ee</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x70853a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70853a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085410" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085410">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085480" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085480">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085c30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085ca0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085d10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085d80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+  </item>
+  <item nodeId="node-0x7085df0">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">An elegant wooden bookshelf with two glass doors filled with storybooks, history books, trinkets and a book archiving the entire lineage of Hyrule
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085e60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085ed0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Zelda&apos;s Room
+you enter an elegant room with the most beautiful furnishings and furniture you&apos;ve ever seen. a dresser and shelf are on your left, a Painting and a Hylian Crest Quilt are on your right, and a bed is in front of you. You also notice Zelda staring out the window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x7085f40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+East Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="178">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085fb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086020" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086020">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+East Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086090" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086090">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+MIddle Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086100" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086100">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086170" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086170">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+King&apos;s Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x70861e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70861e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086250" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086250">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x70862c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70862c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+MIddle Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086330" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086330">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x70859f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70859f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Zelda&apos;s Room
+you enter an elegant room with the most beautiful furnishings and furniture you&apos;ve ever seen. a dresser and shelf are on your left, a Painting and a Hylian Crest Quilt are on your right, and a bed is in front of you.
+
+You can see a Dresser (closed) and a Shelf (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085a60">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">You open the Dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085ad0">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">An elegant wooden bookshelf with two glass doors filled with storybooks, history books, trinkets and a book archiving the entire lineage of Hyrule
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085b40">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">What do you want to open?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+    <children>
+      <child nodeId="node-0x7085bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7085bb0">
+    <command xml:space="preserve">open shelf</command>
+    <result xml:space="preserve">You open the Shelf, revealing Storybooks and a history books.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+  </item>
+  <item nodeId="node-0x70863a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086fe0" />
+      <child nodeId="node-0x7086410" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086410">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+MIddle Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086480" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086480">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x70864f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70864f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086560" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086560">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x70865d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70865d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Zelda&apos;s Room
+you enter an elegant room with the most beautiful furnishings and furniture you&apos;ve ever seen. a dresser and shelf are on your left, a Painting and a Hylian Crest Quilt are on your right, and a bed is in front of you. You also notice Zelda staring out the window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086640" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086640">
+    <command xml:space="preserve">x dresser</command>
+    <result xml:space="preserve">A beautiful mahogany dresser with a gold Hylian Crest inlayed on the top of the dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x70866b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70866b0">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">An elegant wooden bookshelf with two glass doors filled with storybooks, history books, trinkets and a book archiving the entire lineage of Hyrule
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086720" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086720">
+    <command xml:space="preserve">get books</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086790" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086790">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086800" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086800">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086870" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086870">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+MIddle Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x70868e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70868e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086950" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086950">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x70869c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70869c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+King&apos;s Room
+The King&apos;s Room is even more magnificiant than Zelda&apos;s Room. Theres a desk, a wardrobe, a bed, and other pieces of furniture
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086a30">
+    <command xml:space="preserve">x all</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086aa0">
+    <command xml:space="preserve">x wardrobe</command>
+    <result xml:space="preserve">The King&apos;s wardrobe, made of dark oak and it&apos;s probably the most georgous wardrobe you&apos;ve ever seen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086b10">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">Maybe it&apos;s not a good idea to open the King&apos;s wardrobe...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086b80">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">A bed fit for a king... oh wait. it is for a king. Between the pillows, you notice the missing ocarina wedged in there.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086bf0">
+    <command xml:space="preserve">get ocarina</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086c60">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086cd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086d40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+MIddle Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086db0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086e20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Zelda&apos;s Room
+you enter an elegant room with the most beautiful furnishings and furniture you&apos;ve ever seen. a dresser and shelf are on your left, a Painting and a Hylian Crest Quilt are on your right, and a bed is in front of you. You also notice Zelda staring out the window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086e90">
+    <command xml:space="preserve">x zelda</command>
+    <result xml:space="preserve">Zelda is the princess of Hyrule. She has golden brown hair, pointed ears,   blue eyes, and she&apos;s wearing a pink and white dress. you&apos;ve saved her from Ganon, and she&apos;s the love of your life. She appears frusturated and flustered over something.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086f00">
+    <command xml:space="preserve">give ocarina</command>
+    <result xml:space="preserve">(to Zelda)
+Zelda doesn&apos;t seem interested.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x7086f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x7086f70">
+    <command xml:space="preserve">get dress</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0x7086fe0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+King&apos;s Room
+The King&apos;s Room is even more magnificiant than Zelda&apos;s Room. Theres a desk, a wardrobe, a bed, and other pieces of furniture
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087050" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087050">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+West Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x70870c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70870c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+MIddle Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087130" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087130">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Corridor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x70873d0" />
+      <child nodeId="node-0x70871a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70871a0">
+    <command xml:space="preserve">ss</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087210" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087210">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Zelda&apos;s Room
+you enter an elegant room with the most beautiful furnishings and furniture you&apos;ve ever seen. a dresser and shelf are on your left, a Painting and a Hylian Crest Quilt are on your right, and a bed is in front of you. You also notice Zelda staring out the window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087280" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087280">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x70872f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70872f0">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087360" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087360">
+    <command xml:space="preserve">talk to zelda</command>
+    <result xml:space="preserve">Ugh, what was it?! It seems so familiar, but i just can&apos;t remember that song! Hmm? Oh, Hi Link. Sorry, I&apos;ve been trying to remember a song for a whle now, and it&apos;s really bugging me. Maybe could you figure help me remember what it was?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0x70873d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Zelda&apos;s Room
+you enter an elegant room with the most beautiful furnishings and furniture you&apos;ve ever seen. a dresser and shelf are on your left, a Painting and a Hylian Crest Quilt are on your right, and a bed is in front of you.
+
+You can see a Dresser (closed) and a Shelf (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087440" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087440">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">An elegant wooden bookshelf with two glass doors filled with storybooks, history books, trinkets and a book archiving the entire lineage of Hyrule
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x70874b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70874b0">
+    <command xml:space="preserve">open shelf</command>
+    <result xml:space="preserve">You open the Shelf, revealing Storybooks, History Books, Trinkets and a Hyrule Heritage Book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087520" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087520">
+    <command xml:space="preserve">take hyrule heritage book</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087590" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087590">
+    <command xml:space="preserve">x heritage book</command>
+    <result xml:space="preserve">This book has every record of the history of Hyrule spanning from the Era of Creation, The God Era, the Twilight and Shadow Era, and the Era of Great Voyage.
+
+You notice a bookmark fall out of the Hero of Time Era chapter. Upon Further investigation, you notice pages upon pages of notes on the Ocarina of Time.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087600" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087600">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">An elegant wooden bookshelf with two glass doors filled with storybooks, history books, trinkets and a book archiving the entire lineage of Hyrule
+
+In the Shelf are Storybooks, History Books and Trinkets.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087670" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087670">
+    <command xml:space="preserve">open shelf</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x70876e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70876e0">
+    <command xml:space="preserve">take storybooks</command>
+    <result xml:space="preserve">Why would you take it? You have no use for it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087750" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087750">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Hyrule Heritage Book
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x70877c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70877c0">
+    <command xml:space="preserve">take storybooks</command>
+    <result xml:space="preserve">Why would you take it? You have no use for it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x7087830" />
+    </children>
+  </item>
+  <item nodeId="node-0x7087830">
+    <command xml:space="preserve">i</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
   </item>
 </Skein>
